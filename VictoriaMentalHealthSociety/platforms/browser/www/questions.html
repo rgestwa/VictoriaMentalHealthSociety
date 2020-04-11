@@ -1,0 +1,199 @@
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Questionaire</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="questions" class="page">
+        <div class="page-content">
+          <!--<form id="myForm">-->
+            <div class="content-block">
+              <div class="content-block-title">Questionaire:</div>
+                <div class="list-block accordion-list">
+                  <ul>
+                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                      <!-- ITEM 1 -->
+                        <div class="item-inner">
+                          <div class="item-title">Age</div>
+                        </div></a>
+                      <div class="accordion-item-content">
+                        <div class="content-block">
+                          <ul>
+
+                            <li>
+                              <div class="item-content">
+                                <div class="item-inner">
+                                  <div class="item-title label">Enter Age:</div>
+                                  <div class="item-input">
+                                    <input id="age" type="text" placeholder="Your Age">
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- ITEM 2 -->
+                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                          <div class="item-title label">Gender</div>
+                        </div></a>
+                      <div class="accordion-item-content">
+                        <div class="content-block">
+
+                          <div class="list-block">
+                            <ul>
+                              <!-- Single radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <!-- Checked by default -->
+                                  <input type="radio" id="preferNotToAnswer" name="my-radio" value="Prefer_not_to_answer" checked="checked">
+                                  <div class="item-inner">
+                                    <div class="item-title">Prefer Not to Answer</div>
+                                  </div>
+                                </label>
+                              </li>
+                              <!-- Another radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <input type="radio" id="female" name="my-radio" value="Female">
+                                  <div class="item-inner">
+                                    <div class="item-title">Female</div>
+                                  </div>
+                                </label>
+                              </li>
+                              <!-- Another radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <input type="radio" id="male" name="my-radio" value="Male">
+                                  <div class="item-inner">
+                                    <div class="item-title">Male</div>
+                                  </div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+                    <!-- ITEM 3 -->
+                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                          <div class="item-title">Aboriginal Status</div>
+                        </div></a>
+                      <div class="accordion-item-content">
+                        <div class="content-block">
+
+                          <div class="list-block">
+                            <ul>
+                              <!-- Single radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <!-- Checked by default -->
+                                  <input type="radio" id="notAboriginal" name="my-radio" value="No" checked="checked">
+                                  <div class="item-inner">
+                                    <div class="item-title">No</div>
+                                  </div>
+                                </label>
+                              </li>
+                              <!-- Another radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <input type="radio" id="aboriginal" name="my-radio" value="Yes">
+                                  <div class="item-inner">
+                                    <div class="item-title">Yes</div>
+                                  </div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+                    <!-- ITEM 4 -->
+                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                          <div class="item-title">Price Range?</div>
+                        </div></a>
+                      <div class="accordion-item-content">
+                        <div class="content-block">
+                          <ul>
+                          <li>
+                            <div class="item-content">
+
+                              <div class="item-inner">
+                                <div class="item-title label">Price up to:</div>
+                                <div class="item-input">
+                                  <div class="range-slider">
+                                    <input type="range" id="cost" min="0" max="100" value="50" step="0.1">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- ITEM 5 -->
+                    <li class="accordion-item"><a href="#" class="item-content item-link">
+                        <div class="item-inner">
+                          <div class="item-title">Language</div>
+                        </div></a>
+                      <div class="accordion-item-content">
+                        <div class="content-block">
+                          <p>Do you require support in a language other than English?</p>
+                          <div class="list-block">
+                            <ul>
+                              <!-- Single radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <!-- Checked by default -->
+                                  <input type="radio" id="english" name="my-radio" value="No" checked="checked">
+                                  <div class="item-inner">
+                                    <div class="item-title">No</div>
+                                  </div>
+                                </label>
+                              </li>
+                              <!-- Another radio input -->
+                              <li>
+                                <label class="label-radio item-content">
+                                  <input type="radio" id="nonEnglish" name="my-radio" value="Yes">
+                                  <div class="item-inner">
+                                    <div class="item-title">Yes</div>
+                                  </div>
+                                </label>
+                              </li>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <!--</form>-->
+              <div class="content-block"
+                <div class="row">
+                  <a class="button button-raised button-fill color-blue col-50 submit" href="resources.html">Submit</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
